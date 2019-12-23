@@ -69,7 +69,7 @@ dependencies {
 	
 	//embed "com.squareup.okhttp3:logging-interceptor:3.13.1"
 	compileOnly "org.bouncycastle:bcpkix-jdk15on:1.64" // forge is unable to package bouncycastle because of duplicate DSA files...
-	embed "org.slf4j:slf4j-log4j12:1.7.29"
+	embed "org.slf4j:slf4j-log4j12:1.7.30"
 
     // the 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
     //provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
